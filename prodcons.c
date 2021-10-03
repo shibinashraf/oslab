@@ -53,7 +53,8 @@ else
 consumer();
 break;
 default:
-exit();
+    printf("Enter a valid choice!");
+    break;
 break;
 }
 }
