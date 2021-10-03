@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+  // change values of m  and n according to your input choice :)
   
     int n, m, i, j, k;
     n = 5; 
@@ -56,6 +57,5 @@ int main()
     printf("\n\n");
   
     return (0);
-  
-
+ 
 }
