@@ -7,8 +7,7 @@ scanf("%d",&n);
 if(0<=(buffersize-(currentsize+n)))
 {
 currentsize+=n;
-printf("%d Elements produced by producer where buffersize is %d\n", currentsize,
-buffersize);
+printf("%d Elements produced by producer where buffersize is %d\n", currentsize,buffersize);
 }
 else
 printf("\nBuffer is not sufficient\n");
@@ -25,8 +24,7 @@ printf("\nNumber of elements consumed: %d, Number of Elements left: %d", x, curr
 }
 else
 {
-printf("\nNumber of Elements consumed should not be greater than Number of Elements
-produced\n");
+printf("\nNumber of Elements consumed should not be greater than Number of Elements produced\n");
 }
 }
 void main()
