@@ -1,11 +1,10 @@
 #include<stdio.h>
-#include<conio.h>
+
 int p[30],bt[30],tot_tat=0,wt[30],n,tot_wt=0,tat[30],SJF_wt=0,SJF_tat=0;
 float awt,avg_tat,avg_wt;
 void main()
 {
 int i;
-clrscr();
 printf("\nEnter the no.of processes \n");
 scanf("%d",&n);
 printf("Enter burst time for each process\n");
@@ -20,7 +19,7 @@ printf("\n\nTotal Turn around Time:%d",SJF_tat);
 printf("\nAverage Turn around Time :%d ", SJF_tat/n);
 printf("\nTotal Waiting Time:%d",SJF_wt);
 printf("\nTotal avg. Waiting Time:%d",SJF_wt/n);
-getch();
+
 }
 int sort()
 {
