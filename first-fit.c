@@ -31,6 +31,7 @@ break;
 }
 printf("\nBlock no.\tsize\t\tprocess no.\t\tsize");
 for(i = 0; i < bno; i++)
+ 
 {
 printf("\n%d\t\t%d\t\t", i+1, blocksize[i]);
 if(flag[i] == 1)
