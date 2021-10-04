@@ -12,8 +12,10 @@ void main(){
         if( i == 0){
             tat[i] = bt[i];
         }
-        else
+        else{
         tat[i] = tat[i-1] + bt[i];
+    }
+        tot_tat += tat[i];
     }
     for(i = 0 ; i < n ; i++){
         if( i == 0 ){
@@ -22,9 +24,6 @@ void main(){
         else{
             wt[i] = tat[i] - bt[i];
         }
-    }
-    for(i = 0; i < n ; i++){
-        tot_tat += tat[i];
         tot_wt += wt[i];
     }
      avg_tat = tot_tat/(float)n;
