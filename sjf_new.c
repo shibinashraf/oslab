@@ -1,22 +1,17 @@
 #include<stdio.h>
 int n,i,j,p[30], bt[30] ,tat[30], wt[30], tot_tat = 0, tot_wt = 0;
-int sort()
-{
+int sort(){
 int t,i,j;
-for(i=0;i<n;i++)
-{
-for(j=i+1;j<n;j++)
-{
-if(bt[i]>bt[j])
-{
+for(i=0;i<n;i++){
+for(j=i+1;j<n;j++){
+if(bt[i]>bt[j]){
 swap(&bt[j],&bt[i]);
 swap(&p[j],&p[i]);
 }
 }
 }
 }
-void swap(int *a, int *b)
-{
+void swap(int *a, int *b){
 int t;
 t = *a;
 *a = *b;
